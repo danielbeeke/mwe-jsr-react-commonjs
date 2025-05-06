@@ -11,10 +11,13 @@
   },
   "dependencies": {
     "@danielbeeke/mwe-jsr-react-commonjs": "npm:@jsr/danielbeeke__mwe-jsr-react-commonjs@^0.1.0",
+    "@shapething/shacl-renderer": "npm:@jsr/shapething__shacl-renderer@^0.0.43",
+    "@vitejs/plugin-react": "^4.4.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@deno/vite-plugin": "^1.0.4",
     "@eslint/js": "^9.22.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",

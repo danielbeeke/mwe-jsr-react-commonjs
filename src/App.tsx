@@ -1,12 +1,12 @@
-
-import Compactor from '@danielbeeke/mwe-jsr-react-commonjs'
+import { ShaclRenderer } from '@shapething/shacl-renderer'
 
 function App() {
 
   return (
-    <>
-  <Compactor iri='http://example.com/john' prefixes={{ ex: 'http://example.com/' }} />
-    </>
+    <ShaclRenderer
+      mode="edit"
+      shapes={new URL('/shapes/contact.ttl', location.origin)}
+    />
   )
 }
 
