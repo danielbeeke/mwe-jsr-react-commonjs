@@ -74,7 +74,7 @@ export const jsr: Plugin = {
   },
 
   async resolveId(id: string, importer: any, options: any) {
-    const match = [...id.matchAll(/npm:([@a-z\-0-9]*\/)?([a-z\-0-9]*)@\^[0-9]*\.[0-9]*\.[0-9]*(\/[a-z\-]*)?/gm)]
+    const match = [...id.matchAll(/npm:([@a-zA-Z\-0-9]*\/)?([a-zA-Z\-0-9]*)@\^[0-9]*\.[0-9]*\.[0-9]*(\/[a-zA-Z\-]*)?/gm)]
 
     if (match[0]) {
       const cleanedId = `${match[0][1] ?? ''}${match[0][2] ?? ''}${match[0][3] ?? ''}`

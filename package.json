@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "@danielbeeke/mwe-jsr-react-commonjs": "npm:@jsr/danielbeeke__mwe-jsr-react-commonjs@^0.1.0",
-    "@shapething/shacl-renderer": "npm:@jsr/shapething__shacl-renderer@^0.0.43",
+    "@shapething/shacl-renderer": "npm:@jsr/shapething__shacl-renderer@^0.0.45",
     "@vitejs/plugin-react": "^4.4.1",
+    "classnames": "^2.5.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -28,6 +29,7 @@
     "globals": "^16.0.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
-    "vite": "^6.3.1"
+    "vite": "^6.3.1",
+    "vite-plugin-commonjs": "^0.10.4"
   }
 }
